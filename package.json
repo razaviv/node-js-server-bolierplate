@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Taxi4you server",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taxi4you/server.git"
+  },
+  "keywords": [
+    "Taxi4you",
+    "server"
+  ],
+  "author": "Taxi4you LTD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taxi4you/server/issues"
+  },
+  "homepage": "https://github.com/Taxi4you/server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.1",
+    "mongojs": "^2.6.0",
+    "request": "^2.87.0",
+    "socket.io": "^2.1.1",
+    "socket.io-redis": "^5.2.0",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "commander": "^2.16.0",
+    "inquirer": "^6.0.0",
+    "nodemon": "^1.18.3",
+    "shelljs": "^0.8.2",
+    "translate": "^1.0.2"
+  }
+}

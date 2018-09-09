@@ -1,0 +1,15 @@
+process.env.PORT = 3000;
+
+process.env.JWT_SECRET = "my-super-secret-jwt-key";
+
+process.env.DB_NAME = "taxi4you";
+process.env.DB_USER = "your-user";
+process.env.DB_PASSWORD = "your-password";
+
+if (process.env.NODE_ENV=="production") {
+  process.env.API_VERSION = ["v1"];
+  process.env.API_CURRENT_VERSION = "v1";
+} else {
+  process.env.API_VERSION = ["v1"];
+  process.env.API_CURRENT_VERSION = "v1";
+}
